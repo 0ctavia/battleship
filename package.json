@@ -1,0 +1,29 @@
+{
+  "name": "battleship",
+  "version": "1.0.0",
+  "description": "Battleship game created during BeCode training",
+  "main": "app.js",
+  "scripts": {
+    "start:dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0ctavia/battleship.git"
+  },
+  "keywords": [
+    "battleship",
+    "node",
+    "game",
+    "memes"
+  ],
+  "author": "Octavia C.",
+  "license": "GPL-2.0-or-later",
+  "bugs": {
+    "url": "https://github.com/0ctavia/battleship/issues"
+  },
+  "homepage": "https://github.com/0ctavia/battleship#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
